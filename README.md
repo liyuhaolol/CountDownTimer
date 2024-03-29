@@ -1,1 +1,3 @@
+# 项目废弃，因为会出现随机的从0倒计时到负数的奇怪问题，并不是我的代码导致的，应该是是CountDownTimer这个系统控件天生存在的问题。
+# 现在以替换为CountDownTimerX，使用Handler实现
 解决Android原生API在某些老Android版本，不能正确回调最后1秒的问题
